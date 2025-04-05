@@ -20,6 +20,7 @@ An AI-powered facial recognition-based attendance system that automates student 
 
 🗂️**Project Structure**
 📦 Smart-Attendance-System
+
 ├── database/                  # Stored face images
 
 ├── records.csv               # Registered students info (rollno, name, email)

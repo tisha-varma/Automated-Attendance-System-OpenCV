@@ -2,17 +2,13 @@
 An AI-powered facial recognition-based attendance system that automates student identification and absence notifications using machine learning and computer vision.
 
 📸 **Features**
-🧑‍🎓 Student Registration via Webcam
-Users can register by entering their name, roll number, and email. The system captures face images and stores them for training.
+- 🧑‍🎓 Student Registration via Webcam: Users can register by entering their name, roll number, and email. The system captures face images and stores them for training.
 
-📷 Real-Time Face Recognition
-During attendance, faces are recognized live using a trained model. Attendance is marked automatically.
+- 📷 Real-Time Face Recognition: During attendance, faces are recognized live using a trained model. Attendance is marked automatically.
 
-📧 Automatic Email Notification
-Absent students are identified and notified via email (configurable).
+- 📧 Automatic Email Notification: Absent students are identified and notified via email (configurable).
 
-🖥️ User-Friendly GUI (Tkinter)
-All operations—registration and attendance—can be handled through an intuitive graphical interface.
+- 🖥️ User-Friendly GUI (Tkinter): All operations—registration and attendance—can be handled through an intuitive graphical interface.
 
 🛠️ **Tech Stack**
 -  Python
@@ -25,11 +21,17 @@ All operations—registration and attendance—can be handled through an intuiti
 🗂️**Project Structure**
 📦 Smart-Attendance-System
 ├── database/                  # Stored face images
+
 ├── records.csv               # Registered students info (rollno, name, email)
+
 ├── recognition.py            # Face recognition & training logic
+
 ├── notification.py           # Sends emails to absentees
-├── main.py                   # Main GUI and application logic (your shared code)
+
+├── main.py                   # Main GUI and application logic 
+
 └── card_front.png            # Background image for GUI
+
 
 
 ![image](https://github.com/user-attachments/assets/c2965188-260c-423a-a15a-d4c56d7a478d)
